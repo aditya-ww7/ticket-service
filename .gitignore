@@ -1,0 +1,56 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# VS Code & JetBrains IDEs
+.vscode/
+.idea/
+
+# Virtualenv
+*.env
+*.venv
+env/
+venv/
+
+# Logs & Debugging
+*.log
+logs/
+debug.log
+
+app/migrations/versions/*.pyc
+
+*.sqlite3
+*.db
+*.sqlite
+
+docker-compose.override.yml
+*.dockerfile
+*.env
+
+.coverage
+htmlcov/
+pytest_cache/
+*.cover
+
+.ipynb_checkpoints/
+
+staticfiles/
+media/
+
+.DS_Store
+Thumbs.db
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
